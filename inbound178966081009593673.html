@@ -1,0 +1,226 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kristel Marie Asignacion</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #FFB0B5;
+      color:black;
+      line-height: 1.6;
+    }
+
+    /* Hero Section */
+    .hero {
+      background:#FFB0B5;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: black ;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width:100%; height: 100%;
+      background: rgb(0,0,0,0.5);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+    nav {
+   background: black;
+   padding: 5px 0;
+   text-align: center;
+   border-top: 5px solid pink;
+   border-bottom: 5px solid pink;
+   }
+
+   .nav-line {
+   margin: 0px 0;
+   }
+
+   nav a {
+   color: white;
+   text-decoration: none;
+   margin: 0 20px;
+   font-weight: bold;
+   font-size: 18px;
+   transition: color 0.3s;
+   }
+
+   nav a:hover {
+   color: pink;
+   }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      max-width: 1000px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      margin-bottom: 15px;
+      color:black;
+    }
+    
+    img {
+    float: center;
+    height:75px;
+    width: 75px;
+    margin-right: 5px;
+    border: 4px solid #fff;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-tobol: 10px;
+      font-weight: bold;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+      <h1>𝓗𝓮𝓵𝓵𝓸, 𝓘 𝓪𝓶 𝓨𝔃𝓽𝓮𝓵𝓵  </h1>
+      <p></p></p>𝕎𝕒𝕟𝕟𝕒 𝕜𝕟𝕠𝕨 𝕤𝕠𝕞𝕖𝕥𝕙𝕚𝕟𝕘 𝕒𝕓𝕠𝕦𝕥 𝕞𝕖? </p>
+    </div>
+  </section>
+
+   <!-- Navigation -->
+<nav>
+  <div class="nav-line">
+    <a href="#resume">Resume</a>
+    <a href="#about">About</a>
+    <a href="#My Works">My Works</a>
+    </div>
+    </nav>
+<nav>
+  <div class="nav-line">
+    <a href="#Accomplishments">Accomplishments</a> 
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+  <!-- Main Content -->
+  <div class="container">
+   <section id="resume">
+      <h2>Resume</h2>
+      <h3>Education</h3>
+      <ul>  
+        <li> BACHELOR OF SCIENCE IN COMPUTER SCIENCE </li>
+        <li>DEBESMSCAT</li>
+      </ul>
+      <h3>Skills</h3>
+      <ul>
+       <li>Canva – Experienced in creating digital designs, layouts, and presentations
+</li>
+       <li>IbisPaint – Skilled in sketching and digital illustration
+</li>
+      <li>Exploring and adapting to new challenges</li>
+      </ul>
+    </div>
+  </section>
+  
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, I’m Yztel, a 3rd-year BSCS student with a strong interest in creative design and digital tools. Over the past two years, I have gained experience using Canva for design projects. I also have a foundational knowledge in Coding and continue to explore and expand my skills in both design and technology.
+ </p>
+    </section>
+    
+
+    <section id="My Works">
+      <h2>My Works</h2>
+      <img src="work.png" alt="My Works" class="work">
+      <img src="mandala.jpg" alt="My Works" class="mandala">
+      <img src="draw.jpg" alt="My Works" class="draw">
+      <img src="drawing.jpg" alt="My Works" class="drawing">
+      <img src="canva.jpg" alt="My Works" class="canva">
+      <img src="canva1.jpg" alt="My Works" class="canva1">
+       <p> These are the project that I've been made using Canva, Ibispaint and Mandala Art.</p>
+      </section>
+     
+    <section id="Accomplishments">
+      <h2>Accomplishments</h2>
+      <img src="tel.jpg" alt="My Works" class="tel">
+      <img src="rank.jpg" alt="My Works" class="rank">
+      <img src="awarding.jpg" alt="My Works " class="awarding">
+      </p> I participated in GDF 2024 and earned a spot at the top. Even though I didn’t reach the very highest rank, I am still proud and honored to be among the top participants.
+</p>
+    </section>
+     
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>𝖤𝗆𝖺𝗂𝗅: <a href="#">asignacionkristel11@gmail.com</a>     
+      <p>𝖿𝖺𝖼𝖾𝖻𝗈𝗈𝗄:
+      <br>
+      <a  href="#">https://www.  facebook.com/kristel.marie.benitez.   asignacion</a
+      <br>
+      <p>𝖨𝗇𝗌𝗍𝖺𝗀𝗋𝖺𝗆:
+       <a      href="#">https://www.instagram.com/iiztel.
+       04?igsh=dGExenV0ZHZkcHBy</a> 
+     <p>𝖫𝗂𝗇𝗄𝖾𝖽𝖨𝗇:
+     <br>
+     <a 
+     href="#">https://www.linkedin.
+     com/in/kristel-marie-asignacion-
+     9a719b383</a></p>
+    </section>
+  </div>  
+
+  <!-- Footer -->
+  <footer>
+    <p> &copy; 2025 Your Name. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
